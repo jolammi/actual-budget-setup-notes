@@ -1,0 +1,4 @@
+actualbudget.example.com {
+    encode gzip zstd
+    reverse_proxy actual_server:5006
+}
